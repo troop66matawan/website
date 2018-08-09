@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.asstscoutmasters {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bio {
+  display: flex;
+  width: 550px;
+}
+.committee {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  margin: 15px auto 15px auto;
+  width: 350px;
+  font-size: 30px;
+}
+.image {
+  position: relative;
+  top:0;
+}
+.label {
+  font-weight: bold;
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.oasash {
+  position: absolute;
+  top: 0px;
+  left: 112px;
+}
+.positions {
+  display: flex;
+  flex-wrap: wrap;
+}
+.position {
+  display: block;
+}
+.positionpatch {
+  position: absolute;
+  top: 100px;
+  left:100px;
+}
+.position:not(:last-child):after {
+  content: ", ";
+}
+.profilepic {
+  height: 150px;
+  width: 150px;
+}
+.sons {
+  display: flex;
+}
+.son {
+  display: block;
+}
+.sonlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+.son:not(:last-child):after {
+  content: ", ";
+}

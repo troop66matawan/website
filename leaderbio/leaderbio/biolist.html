@@ -1,0 +1,19 @@
+<div class="biolist">
+  <div class="header">Scoutmaster</div>
+  <div class="scoutmasters" ng-repeat="bioentry in $ctrl.leaders.scoutmaster" >
+    <bio data="bioentry"></bio>
+  </div>
+  <div class="header">Assistant Scoutmasters</div>
+  <div class="asstscoutmasters">
+    <div ng-repeat="bioentry in $ctrl.leaders.assistantscoutmaster" >
+      <bio data="bioentry"></bio>
+    </div>
+  </div>
+  <div class="header">Troop Committee</div>
+  <div class="committee">
+    <div ng-repeat="bioentry in $ctrl.leaders.committee" >
+      <bio data="bioentry"></bio>
+    </div>
+  </div>
+
+</div>

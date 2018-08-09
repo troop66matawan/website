@@ -1,0 +1,37 @@
+<div class="bio">
+  <div class="image">
+    <img class="profilepic" ng-src="images/scoutSilhoutte.png"/>
+    <img class="oasash" ng-if="$ctrl.data.oa" ng-src="images/{{$ctrl.data.oa}}.png"/>
+    <img class="positionpatch" ng-src="images/{{$ctrl.data.positions[0].position}}.png"/>
+  </div>
+  <div class="text">
+    <div class="name">
+      <span>{{$ctrl.data.firstName}}</span>
+      <span>{{$ctrl.data.lastName}}</span>
+    </div>
+    <div class="joinedunit">Joined the troop in {{$ctrl.data.joinedUnit}}</div>
+    <div class="positions">
+      <span class="position" ng-repeat="position in $ctrl.data.positions">
+        <span>{{position.position}}</span>
+        <span ng-if="position.tenure.end">({{position.tenure.start}} - {{position.tenure.end}})</span>
+        <span ng-if="position.tenure.start && !position.tenure.end">({{position.tenure.start}} - current)</span>
+      </span>
+    </div>
+    <div class="sons"  ng-if="$ctrl.data.sons && $ctrl.data.sons.length >0">
+      <span class="label" ng-if="$ctrl.data.sons.length > 1">Sons:</span>
+      <span class="label" ng-if="$ctrl.data.sons.length === 1">Son:</span>
+      <div class="sonlist">
+        <div class="son" ng-repeat="son in $ctrl.data.sons">
+          <span class="firstname">{{son.firstName}}</span>
+          <span class="lastname">{{son.lastName}}</span>
+          <span class="eagle" ng-if="son.yearEagle">Eagle Scout ({{son.yearEagle}})</span>
+        </div>
+      </div>
+    </div>
+    <div class="occupation" ng-if="$ctrl.data.occupation">
+      <span class="label">Occupation:</span>
+      {{$ctrl.data.occupation}}
+      <span ng-if="$ctrl.data.employer">at {{$ctrl.data.employer}}</span>
+    </div>
+  </div>
+</div>
