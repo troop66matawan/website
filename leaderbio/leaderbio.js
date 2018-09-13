@@ -69,6 +69,7 @@ var leaderbio = {
           yearEagle: 1992
         },
       ],
+      profilepic: 'images/profile/BobShea.jpg',
     },
   ],
   assistantscoutmaster: [

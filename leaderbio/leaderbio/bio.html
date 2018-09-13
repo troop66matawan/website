@@ -1,6 +1,7 @@
 <div class="bio">
   <div class="image">
-    <img class="profilepic" ng-src="images/scoutSilhoutte.png"/>
+    <img ng-if="$ctrl.data.profilepic === undefined" class="profilepic" ng-src="images/scoutSilhoutte.png"/>
+    <img ng-if="$ctrl.data.profilepic !== undefined" class="profilepic" ng-src="{{$ctrl.data.profilepic}}"/>
     <img class="oasash" ng-if="$ctrl.data.oa" ng-src="images/{{$ctrl.data.oa}}.png"/>
     <img class="positionpatch" ng-src="images/{{$ctrl.data.positions[0].position}}.png"/>
   </div>
