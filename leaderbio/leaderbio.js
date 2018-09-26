@@ -32,7 +32,7 @@ var leaderbio = {
           lastName: 'Kee',
         }
       ],
-      profilepic: 'images/profile/RobKee.jpg',
+      profilepic: 'images/profile/RobKee.JPG',
       oa: 'brotherhood',
     },
     {
@@ -174,7 +174,7 @@ var leaderbio = {
       ],
       joinedUnit: 2013,
       oa: 'brotherhood',
-      profilepic: 'images/profile/ScottHarrington.jpg',
+      profilepic: 'images/profile/ScottHarrington.JPG',
     },
     {
       firstName: 'Ken',
@@ -223,7 +223,7 @@ var leaderbio = {
       employer: 'Davis Polk & Wardwell LLP',
       occupation: 'Information Systems Trainer',
       oa: 'brotherhood',
-      profilepic: 'images/profile/MarkMills.jpg',
+      profilepic: 'images/profile/MarkMills.JPG',
     },
     {
       firstName: 'Frank',
@@ -245,7 +245,7 @@ var leaderbio = {
       ],
       joinedUnit: 2007,
       oa: 'brotherhood',
-      profilepic: 'images/profile/FrankNastro.jpg',
+      profilepic: 'images/profile/FrankNastro.JPG',
     },
     {
       firstName: 'Richard',
@@ -533,7 +533,7 @@ var leaderbio = {
       oa: 'brotherhood',
       occupation: "Lawyer, Partner",
       employer: "K&L Gates LLP",
-      profilepic: 'images/profile/FredGiordano.jpg'
+      profilepic: 'images/profile/FredGiordano.JPG'
     },
     {
       firstName: 'Lisa',
@@ -670,7 +670,7 @@ var leaderbio = {
       ],
       joinedUnit: 2012,
       oa: 'ordeal',
-      profilepic: 'images/profile/KevinMulvey.jpg',
+      profilepic: 'images/profile/KevinMulvey.JPG',
     },
     {
       firstName: 'Bill',
