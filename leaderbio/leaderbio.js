@@ -32,6 +32,7 @@ var leaderbio = {
           lastName: 'Kee',
         }
       ],
+      profilepic: 'images/profile/RobKee.jpg',
       oa: 'brotherhood',
     },
     {
@@ -88,29 +89,6 @@ var leaderbio = {
       oa: 'brotherhood',
     },
     {
-      firstName: 'George',
-      lastName: 'Ciupinksi',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2013
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Stephen',
-          lastName: 'Ciupinksi',
-          yearEagle: 2018,
-        },
-      ],
-      joinedUnit: 2012,
-      oa: 'brotherhood',
-      occupation: 'IT Director',
-      employer: 'Chanel, Inc.'
-    },
-    {
       firstName: 'Andrew',
       lastName: 'Goldstein',
       positions: [
@@ -137,6 +115,7 @@ var leaderbio = {
         {
           firstName: 'Adam',
           lastName: 'Goldstein',
+          yearEagle: 2018,
         }
       ],
       joinedUnit: 2010,
@@ -195,6 +174,7 @@ var leaderbio = {
       ],
       joinedUnit: 2013,
       oa: 'brotherhood',
+      profilepic: 'images/profile/ScottHarrington.jpg',
     },
     {
       firstName: 'Ken',
@@ -221,6 +201,7 @@ var leaderbio = {
       ],
       joinedUnit: 1998,
       oa: 'brotherhood',
+      profilepic: 'images/profile/KenKinneman.jpg',
     }, {
       firstName: 'Mark',
       lastName: 'Mills',
@@ -242,6 +223,7 @@ var leaderbio = {
       employer: 'Davis Polk & Wardwell LLP',
       occupation: 'Information Systems Trainer',
       oa: 'brotherhood',
+      profilepic: 'images/profile/MarkMills.jpg',
     },
     {
       firstName: 'Frank',
@@ -263,6 +245,40 @@ var leaderbio = {
       ],
       joinedUnit: 2007,
       oa: 'brotherhood',
+      profilepic: 'images/profile/FrankNastro.jpg',
+    },
+    {
+      firstName: 'Richard',
+      lastName: 'Proce',
+      positions: [
+        {
+          position: 'Assistant Scoutmaster',
+          tenure: {
+            start: 2018
+          },
+        },
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2017,
+            end: 2018,
+          },
+        }
+      ],
+      sons: [
+        {
+          firstName: 'Ryan',
+          lastName: 'Proce',
+        },
+        {
+          firstName: 'Sean',
+          lastName: 'Proce',
+        }
+      ],
+      joinedUnit: 2014,
+      oa: 'brotherhood',
+      occupation: 'Engineer',
+      employer: 'Verizon',
     },
     {
       firstName: 'Larry',
@@ -328,6 +344,7 @@ var leaderbio = {
       oa: 'brotherhood',
       employer: 'Spirent Communications',
       occupation: 'Electronics Engineer',
+      profilepic: 'images/profile/JoeLandi.jpg',
     },
     {
       firstName: 'Dan',
@@ -389,6 +406,44 @@ var leaderbio = {
       joinedUnit: 2007,
       employer: 'Badum Creative Group',
       occupation: 'Owner',
+      profilepic: 'images/profile/RonBadum.jpg',
+    },
+    {
+      firstName: 'George',
+      lastName: 'Ciupinksi',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2018
+          }
+        },
+        {
+          position: 'Life to Eagle Committee',
+          tenure: {
+            start: 2018,
+          },
+        },
+        {
+          position: 'Assistant Scoutmaster',
+          tenure: {
+            start: 2013,
+            end: 2018,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Stephen',
+          lastName: 'Ciupinksi',
+          yearEagle: 2018,
+        },
+      ],
+      joinedUnit: 2012,
+      oa: 'brotherhood',
+      occupation: 'IT Director',
+      employer: 'Chanel, Inc.',
+      profilepic: 'images/profile/GeorgeCiupinski.JPG',
     },
     {
       firstName: 'Nick',
@@ -420,6 +475,7 @@ var leaderbio = {
         },
       ],
       joinedUnit: 1984,
+      profilepic: 'images/profile/NickDiFranco.jpg',
     },
     {
       firstName: 'Debbie',
@@ -477,6 +533,7 @@ var leaderbio = {
       oa: 'brotherhood',
       occupation: "Lawyer, Partner",
       employer: "K&L Gates LLP",
+      profilepic: 'images/profile/FredGiordano.jpg'
     },
     {
       firstName: 'Lisa',
@@ -536,6 +593,26 @@ var leaderbio = {
       joinedUnit: 2004,
     },
     {
+      firstName: 'Brian',
+      lastName: 'Meek',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2018,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Andrew',
+          lastName: 'Meek',
+        },
+      ],
+      joinedUnit: 2017,
+      profilepic: 'images/profile/BrianMeek.jpg',
+    },
+    {
       firstName: 'Michael',
       lastName: 'Morizio',
       positions: [
@@ -593,6 +670,26 @@ var leaderbio = {
       ],
       joinedUnit: 2012,
       oa: 'ordeal',
+      profilepic: 'images/profile/KevinMulvey.jpg',
     },
-  ]
+    {
+      firstName: 'Bill',
+      lastName: 'Stevenson',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2018,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Ryan',
+          lastName: 'Stevenson',
+        },
+      ],
+      joinedUnit: 2017,
+      profilepic: 'images/profile/BillStevenson.jpg',
+    },  ]
 };
