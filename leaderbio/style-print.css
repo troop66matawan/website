@@ -34,16 +34,28 @@ body {
   margin-left: .5in;
   margin-right: .5in;
 }
+.asstscoutmasters .text {
+  font-size: 12px;
+}
 .bio {
   display: flex;
   width: 550px;
   page-break-inside: avoid;
+}
+.asstscoutmasters .bio {
+  width: 350px;
 }
 .committee {
   display: flex;
   flex-wrap: wrap;
   margin-left: .5in;
   margin-right: .5in;
+}
+.committee .text {
+  font-size: 12px;
+}
+.committee .bio {
+  width: 350px;
 }
 .header {
   margin: 15px auto 15px auto;
@@ -62,10 +74,22 @@ body {
   font-size: 22px;
   font-weight: bold;
 }
+.asstscoutmasters .name {
+  font-size: 18px;
+}
+.committee .name {
+  font-size: 18px;
+}
 .oasash {
   position: absolute;
   top: 0px;
   left: 112px;
+}
+.asstscoutmasters .oasash {
+  left: 62px;
+}
+.committee .oasash {
+  left: 62px;
 }
 .positions {
   display: flex;
@@ -79,12 +103,32 @@ body {
   top: 100px;
   left:100px;
 }
+.asstscoutmasters .positionpatch {
+  top: 62px;
+  left: 62px;
+  height: 35px;
+  width: 35px;
+}
+.committee .positionpatch {
+  top: 62px;
+  left: 62px;
+  height: 35px;
+  width: 35px;
+}
 .position:not(:last-child):after {
   content: ", ";
 }
 .profilepic {
   height: 150px;
   width: 150px;
+}
+.asstscoutmasters .profilepic {
+  height: 100px;
+  width: 100px;
+}
+.committee .profilepic {
+  height: 100px;
+  width: 100px;
 }
 .sons {
   display: flex;

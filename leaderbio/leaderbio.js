@@ -122,6 +122,7 @@ var leaderbio = {
       oa: 'brotherhood',
       occupation: 'Software Engineer',
       employer: 'Parsons Corporation',
+      profilepic: 'images/profile/AndrewGoldstein.jpg',
     },
     {
       firstName: 'Pedro',
@@ -154,6 +155,7 @@ var leaderbio = {
       joinedUnit: 2007,
       oa: 'brotherhood',
       occupation: 'Plastic Raw Materials Salesman',
+      profilepic: 'images/profile/PedroGrillo.jpg',
     },
     {
       firstName: 'Scott',
@@ -279,6 +281,7 @@ var leaderbio = {
       oa: 'brotherhood',
       occupation: 'Engineer',
       employer: 'Verizon',
+      profilepic: 'images/profile/RichProce.jpg',
     },
     {
       firstName: 'Larry',
@@ -500,6 +503,7 @@ var leaderbio = {
         },
       ],
       joinedUnit: 2009,
+      profilepic: 'images/profile/DebbieGiordano.jpg',
     },
     {
       firstName: 'Fred',
