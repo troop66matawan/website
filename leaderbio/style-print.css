@@ -31,8 +31,8 @@ body {
 .asstscoutmasters {
   display: flex;
   flex-wrap: wrap;
-  margin-left: .5in;
-  margin-right: .5in;
+  margin-left: .4in;
+  margin-right: .4in;
 }
 .asstscoutmasters .text {
   font-size: 12px;
@@ -48,8 +48,8 @@ body {
 .committee {
   display: flex;
   flex-wrap: wrap;
-  margin-left: .5in;
-  margin-right: .5in;
+  margin-left: .4in;
+  margin-right: .4in;
 }
 .committee .text {
   font-size: 12px;
