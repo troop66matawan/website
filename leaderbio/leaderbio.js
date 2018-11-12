@@ -87,6 +87,7 @@ var leaderbio = {
       ],
       joinedUnit: 2003,
       oa: 'brotherhood',
+      occupation: 'Commercial Insurance'
     },
     {
       firstName: 'Andrew',
@@ -171,12 +172,13 @@ var leaderbio = {
       sons: [
         {
           firstName: 'Scott',
-          lastName: 'Harrington',
+          lastName: 'Harrington Jr.',
         }
       ],
       joinedUnit: 2013,
       oa: 'brotherhood',
       profilepic: 'images/profile/ScottHarrington.JPG',
+      occupation: 'Retired Funeral Director, US Army Retired'
     },
     {
       firstName: 'Ken',
@@ -553,7 +555,7 @@ var leaderbio = {
       sons: [
         {
           firstName: 'Scott',
-          lastName: 'Harrington',
+          lastName: 'Harrington Jr.',
         }
       ],
       joinedUnit: 2013,
@@ -695,5 +697,7 @@ var leaderbio = {
       ],
       joinedUnit: 2017,
       profilepic: 'images/profile/BillStevenson.jpg',
+      occupation: 'Principle Park Ranger',
+      employer: 'Monmouth County Park System'
     },  ]
 };
