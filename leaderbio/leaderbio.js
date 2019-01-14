@@ -35,43 +35,6 @@ var leaderbio = {
       profilepic: 'images/profile/RobKee.JPG',
       oa: 'brotherhood',
     },
-    {
-      firstName: 'Robert',
-      lastName: 'Shea',
-      positions: [
-        {
-          position: 'Scoutmaster Emeritus',
-          tenure: {
-            start: 2018
-          },
-        },
-        {
-          position: 'Scoutmaster',
-          tenure: {
-            start: 1984,
-            end: 2018,
-          }
-        }
-      ],
-      joinedUnit: 1984,
-      sons: [
-        {
-          firstName: 'Brian',
-          lastName: 'Shea',
-          yearEagle: 1988
-        },
-        {
-          firstName: 'Michael',
-          lastName: 'Shea',
-          yearEagle: 1991
-        },        {
-          firstName: 'Christopher',
-          lastName: 'Shea',
-          yearEagle: 1992
-        },
-      ],
-      profilepic: 'images/profile/BobShea.jpg',
-    },
   ],
   assistantscoutmaster: [
     {
