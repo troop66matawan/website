@@ -136,6 +136,7 @@ var leaderbio = {
         {
           firstName: 'Scott',
           lastName: 'Harrington Jr.',
+          yearEagle: 2019,
         }
       ],
       joinedUnit: 2013,
@@ -519,6 +520,7 @@ var leaderbio = {
         {
           firstName: 'Scott',
           lastName: 'Harrington Jr.',
+          yearEagle: 2019,
         }
       ],
       joinedUnit: 2013,
