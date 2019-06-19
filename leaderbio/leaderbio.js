@@ -142,7 +142,7 @@ var leaderbio = {
       joinedUnit: 2013,
       oa: 'brotherhood',
       profilepic: 'images/profile/ScottHarrington.JPG',
-      occupation: 'Retired Funeral Director, US Army Retired'
+      occupation: 'Retired Funeral Director, US Army Veteran'
     },
     {
       firstName: 'Ken',
@@ -330,7 +330,7 @@ var leaderbio = {
         {
           firstName: 'Dan',
           lastName: 'Acquafredda',
-          yearEagle: 206,
+          yearEagle: 2006,
         },
         {
           firstName: 'Michael',
