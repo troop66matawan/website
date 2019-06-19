@@ -379,7 +379,7 @@ var leaderbio = {
     },
     {
       firstName: 'George',
-      lastName: 'Ciupinksi',
+      lastName: 'Ciupinski',
       positions: [
         {
           position: 'Committee Member',
@@ -404,7 +404,7 @@ var leaderbio = {
       sons: [
         {
           firstName: 'Stephen',
-          lastName: 'Ciupinksi',
+          lastName: 'Ciupinski',
           yearEagle: 2018,
         },
       ],
