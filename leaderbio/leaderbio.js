@@ -640,7 +640,7 @@ var leaderbio = {
         },
       ],
       joinedUnit: 2012,
-      oa: 'ordeal',
+      oa: 'brotherhood',
       profilepic: 'images/profile/KevinMulvey.JPG',
     },
     {
@@ -661,6 +661,7 @@ var leaderbio = {
         },
       ],
       joinedUnit: 2017,
+      oa: 'ordeal',
       profilepic: 'images/profile/BillStevenson.jpg',
       occupation: 'Principle Park Ranger',
       employer: 'Monmouth County Park System'
