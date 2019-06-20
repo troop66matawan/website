@@ -525,7 +525,9 @@ var leaderbio = {
       ],
       joinedUnit: 2013,
       occupation: 'Senior Program Analyst',
-      employer: 'US Department of HUD'
+      employer: 'US Department of HUD',
+      profilepic: 'images/profile/LisaHarrington.JPG'
+
     },
     {
       firstName: 'Mary-Ann',
