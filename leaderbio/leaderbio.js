@@ -249,6 +249,29 @@ var leaderbio = {
       employer: 'Verizon',
       profilepic: 'images/profile/RichProce.jpg',
     },
+  {
+      firstName: 'Bill',
+      lastName: 'Stevenson',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2018,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Ryan',
+          lastName: 'Stevenson',
+        },
+      ],
+      joinedUnit: 2017,
+      oa: 'ordeal',
+      profilepic: 'images/profile/BillStevenson.jpg',
+      occupation: 'Principle Park Ranger',
+      employer: 'Monmouth County Park System'
+    },
     {
       firstName: 'Larry',
       lastName: 'Topal',
@@ -644,28 +667,6 @@ var leaderbio = {
       joinedUnit: 2012,
       oa: 'brotherhood',
       profilepic: 'images/profile/KevinMulvey.JPG',
-    },
-    {
-      firstName: 'Bill',
-      lastName: 'Stevenson',
-      positions: [
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2018,
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Ryan',
-          lastName: 'Stevenson',
-        },
-      ],
-      joinedUnit: 2017,
-      oa: 'ordeal',
-      profilepic: 'images/profile/BillStevenson.jpg',
-      occupation: 'Principle Park Ranger',
-      employer: 'Monmouth County Park System'
-    },  ]
+    }
+  ]
 };
