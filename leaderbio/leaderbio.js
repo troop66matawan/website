@@ -253,10 +253,16 @@ var leaderbio = {
       firstName: 'Bill',
       lastName: 'Stevenson',
       positions: [
+	{
+	  position: 'Assistant Scoutmaster',
+	  tenure: {
+	    start: 2019,
+	  },
         {
           position: 'Committee Member',
           tenure: {
             start: 2018,
+	    end: 2019,
           },
         },
       ],
