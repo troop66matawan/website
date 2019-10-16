@@ -258,6 +258,7 @@ var leaderbio = {
 	  tenure: {
 	    start: 2019,
 	  },
+	},
         {
           position: 'Committee Member',
           tenure: {
