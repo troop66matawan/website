@@ -616,40 +616,6 @@ var leaderbio = {
       profilepic: 'images/profile/BrianMeek.jpg',
     },
     {
-      firstName: 'Michael',
-      lastName: 'Morizio',
-      positions: [
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2018,
-          },
-        },
-        {
-          position: 'Committee Chairman',
-          tenure: {
-            start: 2018,
-            end: 2018,
-          },
-        },
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 1990,
-            end: 2017,
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Nicholas',
-          lastName: 'Morizio',
-          yearEagle: 1996,
-        },
-      ],
-      joinedUnit: 1990,
-    },
-    {
       firstName: 'Kevin',
       lastName: 'Mulvey',
       positions: [
