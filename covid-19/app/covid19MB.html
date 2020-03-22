@@ -1,0 +1,12 @@
+<div class="covid19-mb-container">
+    <div class="intro">
+        <div class="header">Merit Badges</div>
+    </div>
+    <div class="subtitle">The following list of Merit Badges have Troop 66 Counselors that have agreed to work remotely with our scouts:</div>
+    <div class="mb-list">
+        <div ng-repeat="mb in $ctrl.c19MeritBadges.meritBadges" class="covid-19-mb-name">
+            <span>{{mb}}</span>
+        </div>
+    </div>
+    <div class="lastUpdated">Last Updated: {{$ctrl.c19MeritBadges.lastUpdated}}</div>
+</div>
