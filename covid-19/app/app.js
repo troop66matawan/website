@@ -5,5 +5,9 @@ app.service('loader', function() {
 
     _this.getMeritBadges = function() {
         return window.coronamb;
-    }
+    };
+
+    _this.getVirtualClasses = function() {
+        return window.virtualmb;
+    };
 });

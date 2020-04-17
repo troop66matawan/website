@@ -1,5 +1,6 @@
 .covid19-container {
     font-family: "Trebuchet MS";
+    color: #003965;
 }
 .hr {
     height: 1px;
@@ -49,4 +50,68 @@
 }
 .covid19-mb-container .mb-list .covid-19-mb-name:last-child:after{
     content: '';
+}
+
+.c19-vmb-container {
+    display: flex;
+    width: 200px;
+}
+.virtual-mb {
+    padding-top: 20px;
+}
+.virtual-mb * {
+    display: flex;
+}
+
+.virtual-mb .header {
+    width: 100%;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+.virtual-mb .header .title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.virtual-mb .header .description {
+}
+.virtual-mb .virtual-badges {
+    flex-direction: row;
+}
+.c19-vmb-container * {
+    display: flex;
+}
+.c19-vmb-container a {
+    width: 100%;
+    color: #003965;
+    text-decoration: none;
+}
+.c19-vmb-container .c19-vmb-box {
+    width: 100%;
+    border: 1px solid;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px dimgray ;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.c19-vmb-container .c19-vmb-box name {
+    font-size: larger;
+}
+
+.c19-vmb-container .c19-vmb-box img {
+    width: 75px;
+    height: 75px;
+}
+.c19-vmb-container .c19-vmb-box .c19-vmb-dates {
+    flex-direction: column;
+    font-size: small;
+    align-self: baseline;
+    padding-left: 15px;
+}
+.c19-vmb-container .c19-vmb-box .c19-vmb-dates .label {
+}
+.c19-vmb-container .c19-vmb-box .c19-vmb-dates .dates {
+    flex-direction: column;
 }

@@ -8,5 +8,11 @@ function Covid19Controller(loader) {
 
     _this.$onInit = function() {
         _this.meritBadges = loader.getMeritBadges();
+        _this.virtualmb = loader.getVirtualClasses();
     };
+
+    _this.isValidDate = function(validThru) {
+        const date = new Date(validThru.year, validThru.month, validThru.date, validThru.hour);
+        return (date > new Date());
+    }
 }

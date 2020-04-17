@@ -6,4 +6,18 @@
         <covid19-mb c19-merit-badges="$ctrl.meritBadges"></covid19-mb>
     </div>
     <div class="hr"></div>
+    <div class="virtual-mb">
+        <div class="header">
+            <div class="title">Troop Virtual Merit Badge Classes</div>
+            <div class="description">Below is a list of upcoming merit badge classes.  Click on the box below to enter
+                your Troop 66 Scout's information in the Google Form to register for the class.  Registration will close
+                about 2 days before the first session.
+            </div>
+        </div>
+        <div class="virtual-badges">
+            <div ng-repeat="vmb in $ctrl.virtualmb">
+                <c19-virtual-mb ng-if="$ctrl.isValidDate(vmb.validThru)" name="vmb.name" link="vmb.link" mbpath="vmb.mbpath" meetings="vmb.meetings" ></c19-virtual-mb>
+            </div>
+        </div>
+    </div>
 </div>

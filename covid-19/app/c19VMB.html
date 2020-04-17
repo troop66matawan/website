@@ -1,0 +1,16 @@
+<div class="c19-vmb-container">
+    <a href="{{$ctrl.link}}">
+        <div class="c19-vmb-box">
+            <div class="c19-vmb-name">{{$ctrl.name}}</div>
+            <img src="{{$ctrl.mbpath}}">
+            <div class="c19-vmb-dates">
+                <div class="label">Meets:</div>
+                <div class="dates">
+                    <div ng-repeat="meeting in $ctrl.meetings">
+                        <div class="meeting">{{meeting}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
