@@ -46,11 +46,11 @@ var virtualmb = [
         "name" : "Music",
         "link" : "https://troop66matawan.page.link/HYnF",
         "mbpath" : "https://t66scoutinfo.firebaseapp.com/mbimages/Music.jpg",
-        "meetings": [ "June 2, 2020", "June 9, 2020", "June 12, 2020"],
+        "meetings": [ "June 9, 2020", "June 12, 2020"],
         "validThru" : {
             "year" : 2020,
             "month": 5,
-            "date": 1,
+            "date": 7,
             "hour": 18,
         }
     },
