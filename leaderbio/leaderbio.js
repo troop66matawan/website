@@ -38,6 +38,26 @@ var leaderbio = {
   ],
   assistantscoutmaster: [
     {
+      firstName: 'Quin',
+      lastName: 'Bond',
+      positions: [
+        {
+          position: 'Assistant Scoutmaster',
+          tenure: {
+            start: 2020
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Tyler',
+          lastName: 'Bond',
+        },
+    ],
+      joinedUnit: 2019,
+      occupation: 'Ergonomics'
+    },
+    {
       firstName: 'John',
       lastName: 'Cahill',
       positions: [
@@ -170,7 +190,8 @@ var leaderbio = {
       joinedUnit: 1998,
       oa: 'brotherhood',
       profilepic: 'images/profile/KenKinneman.jpg',
-    }, {
+    },
+    {
       firstName: 'Mark',
       lastName: 'Mills',
       positions: [
@@ -272,6 +293,10 @@ var leaderbio = {
           firstName: 'Ryan',
           lastName: 'Stevenson',
         },
+        {
+          firstName: 'Ian',
+          lastName: 'Stevenson',
+        }
       ],
       joinedUnit: 2017,
       oa: 'ordeal',
@@ -341,7 +366,6 @@ var leaderbio = {
       ],
       joinedUnit: 2004,
       oa: 'brotherhood',
-      employer: 'Spirent Communications',
       occupation: 'Electronics Engineer',
       profilepic: 'images/profile/JoeLandi.jpg',
     },
@@ -594,6 +618,31 @@ var leaderbio = {
         }
       ],
       joinedUnit: 2004,
+    },
+    {
+      firstName: 'Chris',
+      lastName: 'Leising',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2018,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Tim',
+          lastName: 'Leising',
+          yearEagle: 1999,
+        },
+        {
+          firstName: 'Jeff',
+          lastName: 'Leising',
+          yearEagle: 2005,
+        },
+      ],
+      joinedUnit: 1991,
     },
     {
       firstName: 'Brian',
