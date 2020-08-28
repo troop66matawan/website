@@ -445,6 +445,7 @@ var leaderbio = {
           position: 'Life to Eagle Committee',
           tenure: {
             start: 2018,
+            end: 2020,
           },
         },
         {
@@ -603,6 +604,12 @@ var leaderbio = {
           position: 'Committee Member',
           tenure: {
             start: 2018,
+          },
+        },
+        {
+          position: 'Life to Eagle Committee',
+          tenure: {
+            start: 2020,
           },
         },
       ],
