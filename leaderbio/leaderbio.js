@@ -560,30 +560,6 @@ var leaderbio = {
       profilepic: 'images/profile/FredGiordano.JPG'
     },
     {
-      firstName: 'Lisa',
-      lastName: 'Harrington',
-      positions: [
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2013
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Scott',
-          lastName: 'Harrington Jr.',
-          yearEagle: 2019,
-        }
-      ],
-      joinedUnit: 2013,
-      occupation: 'Senior Program Analyst',
-      employer: 'US Department of HUD',
-      profilepic: 'images/profile/LisaHarrington.jpg'
-
-    },
-    {
       firstName: 'Mary-Ann',
       lastName: 'Landi',
       positions: [
