@@ -304,29 +304,6 @@ var leaderbio = {
       occupation: 'Principle Park Ranger',
       employer: 'Monmouth County Park System'
     },
-    {
-      firstName: 'Larry',
-      lastName: 'Topal',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2003
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Ryan',
-          lastName: 'Topal',
-          yearEagle: 2010,
-        }
-      ],
-      joinedUnit: 2003,
-      employer: 'Nestle Professional',
-      occupation: 'Sales Manager',
-      oa: 'brotherhood',
-    },
   ],
   committee: [
     {
