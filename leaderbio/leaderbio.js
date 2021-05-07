@@ -611,7 +611,7 @@ var leaderbio = {
         {
           firstName: 'Aiden',
           lastName: 'Mulvey',
-          yearEalge: 2020
+          yearEagle: 2020
         },
       ],
       joinedUnit: 2012,
