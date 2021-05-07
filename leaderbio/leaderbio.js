@@ -160,7 +160,7 @@ var leaderbio = {
         }
       ],
       joinedUnit: 2013,
-      oa: 'brotherhood',
+      oa: 'vigil',
       profilepic: 'images/profile/ScottHarrington.JPG',
       occupation: 'Retired Funeral Director, US Army Veteran'
     },
@@ -373,42 +373,6 @@ var leaderbio = {
       oa: 'brotherhood',
     },
     {
-      firstName: 'Ron',
-      lastName: 'Badum',
-      positions: [
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2015,
-          },
-        },
-        {
-          position: 'Life to Eagle Committee',
-          tenure: {
-            start: 2015,
-          },
-        },
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2007,
-            end: 2014,
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Ryan',
-          lastName: 'Badum',
-          yearEagle: 2014,
-        },
-      ],
-      joinedUnit: 2007,
-      employer: 'Badum Creative Group',
-      occupation: 'Owner',
-      profilepic: 'images/profile/RonBadum.jpg',
-    },
-    {
       firstName: 'George',
       lastName: 'Ciupinski',
       positions: [
@@ -498,6 +462,7 @@ var leaderbio = {
         {
           firstName: 'Matthew',
           lastName: 'Giordano',
+          yearEagle: 2020
         },
       ],
       joinedUnit: 2009,
@@ -529,6 +494,7 @@ var leaderbio = {
         {
           firstName: 'Matthew',
           lastName: 'Giordano',
+          yearEagle: 2020
         },
       ],
       joinedUnit: 2009,
@@ -622,6 +588,7 @@ var leaderbio = {
         },
       ],
       joinedUnit: 2017,
+      oa: 'ordeal',
       profilepic: 'images/profile/BrianMeek.jpg',
     },
     {
@@ -644,6 +611,7 @@ var leaderbio = {
         {
           firstName: 'Aiden',
           lastName: 'Mulvey',
+          yearEalge: 2020
         },
       ],
       joinedUnit: 2012,
