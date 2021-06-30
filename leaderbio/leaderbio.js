@@ -133,6 +133,7 @@ var leaderbio = {
         {
           firstName: 'Logan',
           lastName: 'Grillo',
+	  yearEagle: 2021,
         }
 
       ],
