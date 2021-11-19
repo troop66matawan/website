@@ -38,6 +38,27 @@ var leaderbio = {
   ],
   assistantscoutmaster: [
     {
+      firstName: 'Damian',
+      lastName: 'Besculides',
+      positions: [
+        {
+          position: 'Assistant Scoutmaster',
+          tenure: {
+            start: 2021
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Alex',
+          lastName: 'Besculides',
+        },
+      ],
+      oa: 'brotherhood',
+      joinedUnit: 2019,
+      occupation: 'Architect'
+    },
+    {
       firstName: 'Quin',
       lastName: 'Bond',
       positions: [
@@ -207,6 +228,7 @@ var leaderbio = {
         {
           firstName: 'Patrick',
           lastName: 'Mills',
+          yearEagle: 2021,
         }
       ],
       joinedUnit: 2014,
@@ -300,7 +322,7 @@ var leaderbio = {
         }
       ],
       joinedUnit: 2017,
-      oa: 'ordeal',
+      oa: 'brotherhood',
       profilepic: 'images/profile/BillStevenson.jpg',
       occupation: 'Principle Park Ranger',
       employer: 'Monmouth County Park System'
