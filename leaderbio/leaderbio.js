@@ -324,7 +324,7 @@ var leaderbio = {
       joinedUnit: 2017,
       oa: 'brotherhood',
       profilepic: 'images/profile/BillStevenson.jpg',
-      occupation: 'Principle Park Ranger',
+      occupation: 'Principal Park Ranger',
       employer: 'Monmouth County Park System'
     },
   ],
