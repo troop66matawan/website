@@ -75,6 +75,7 @@ var leaderbio = {
           lastName: 'Bond',
         },
     ],
+      oa: 'ordeal',
       joinedUnit: 2019,
       occupation: 'Ergonomics'
     },
