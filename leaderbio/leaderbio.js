@@ -397,44 +397,6 @@ var leaderbio = {
       oa: 'brotherhood',
     },
     {
-      firstName: 'George',
-      lastName: 'Ciupinski',
-      positions: [
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2018
-          }
-        },
-        {
-          position: 'Life to Eagle Committee',
-          tenure: {
-            start: 2018,
-            end: 2020,
-          },
-        },
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2013,
-            end: 2018,
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Stephen',
-          lastName: 'Ciupinski',
-          yearEagle: 2018,
-        },
-      ],
-      joinedUnit: 2012,
-      oa: 'brotherhood',
-      occupation: 'IT Director',
-      employer: 'Chanel, Inc.',
-      profilepic: 'images/profile/GeorgeCiupinski.JPG',
-    },
-    {
       firstName: 'Nick',
       lastName: 'DiFranco',
       positions: [
@@ -612,35 +574,53 @@ var leaderbio = {
         },
       ],
       joinedUnit: 2017,
-      oa: 'ordeal',
+      oa: 'brotherhood',
       profilepic: 'images/profile/BrianMeek.jpg',
     },
     {
-      firstName: 'Kevin',
-      lastName: 'Mulvey',
+      firstName: 'Dick',
+      lastName: 'Ratcliffe',
+      positions: [
+        {
+          position: 'Committee Member',
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Richard',
+          lastName: 'Ratcliffe Jr',
+          yearEagle: 1992,
+        },
+        {
+          firstName: 'Matt',
+          lastName: 'Ratcliffe',
+          yearEagle: 2001,
+        },
+      ],
+      joinedUnit: 1957,
+    },
+    {
+      firstName: 'Peter',
+      lastName: 'Roche',
       positions: [
         {
           position: 'Committee Member',
           tenure: {
-            start: 2016,
+            start: 2022,
           },
         },
       ],
       sons: [
         {
-          firstName: 'Kyle',
-          lastName: 'Mulvey',
-          yearEagle: 2017,
+          firstName: 'Simon',
+          lastName: 'Roche',
         },
         {
-          firstName: 'Aiden',
-          lastName: 'Mulvey',
-          yearEagle: 2020
+          firstName: 'Philip',
+          lastName: 'Roche',
         },
       ],
-      joinedUnit: 2012,
-      oa: 'brotherhood',
-      profilepic: 'images/profile/KevinMulvey.JPG',
-    }
+      joinedUnit: 2018,
+    },
   ]
 };
