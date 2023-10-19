@@ -490,6 +490,21 @@ var leaderbio = {
       profilepic: 'images/profile/FredGiordano.JPG'
     },
     {
+      firstName: 'Adam',
+      lastName: 'Goldstein',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+             start: 2023,
+          }
+        }
+     ],
+     joinedUnit: 2012,
+     occupation: 'High School Teacher',
+     employer: 'Freehold Regional High School District',
+    },
+    {
       firstName: 'Mary-Ann',
       lastName: 'Landi',
       positions: [
