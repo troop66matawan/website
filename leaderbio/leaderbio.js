@@ -29,7 +29,8 @@ var leaderbio = {
         },
         {
           firstName: 'Ryan',
-          lastName: 'Kee',
+          lastName: 'Kee', 
+	  yearEagle, 2024,	
         }
       ],
       profilepic: 'images/profile/RobKee.JPG',
@@ -52,6 +53,7 @@ var leaderbio = {
         {
           firstName: 'Alex',
           lastName: 'Besculides',
+	  yearEagle: 2023,
         },
       ],
       oa: 'brotherhood',
@@ -129,40 +131,6 @@ var leaderbio = {
       occupation: 'Software Engineer',
       employer: 'Parsons Corporation',
       profilepic: 'images/profile/AndrewGoldstein.jpg',
-    },
-    {
-      firstName: 'Pedro',
-      lastName: 'Grillo',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2007
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Taylor',
-          lastName: 'Grillo',
-          yearEagle: 2013,
-        },
-        {
-          firstName: 'Zachary',
-          lastName: 'Grillo',
-          yearEagle: 2017,
-        },
-        {
-          firstName: 'Logan',
-          lastName: 'Grillo',
-	  yearEagle: 2021,
-        }
-
-      ],
-      joinedUnit: 2007,
-      oa: 'brotherhood',
-      occupation: 'Plastic Raw Materials Salesman',
-      profilepic: 'images/profile/PedroGrillo.jpg',
     },
     {
       firstName: 'Scott',
@@ -316,6 +284,7 @@ var leaderbio = {
         {
           firstName: 'Ryan',
           lastName: 'Stevenson',
+	  yearEagle: 2023,
         },
         {
           firstName: 'Ian',
@@ -586,6 +555,7 @@ var leaderbio = {
         {
           firstName: 'Andrew',
           lastName: 'Meek',
+	  yearEagle: 2023,
         },
       ],
       joinedUnit: 2017,
