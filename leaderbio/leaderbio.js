@@ -30,7 +30,7 @@ var leaderbio = {
         {
           firstName: 'Ryan',
           lastName: 'Kee', 
-	  yearEagle, 2024,	
+	  yearEagle: 2024,	
         }
       ],
       profilepic: 'images/profile/RobKee.JPG',
