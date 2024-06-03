@@ -159,6 +159,7 @@ var leaderbio = {
           tenure: {
             start: 2024,
           },
+	},
         {
           position: 'Scoutmaster',
           tenure: {
