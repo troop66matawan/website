@@ -268,6 +268,7 @@ var leaderbio = {
         {
           firstName: 'Sean',
           lastName: 'Proce',
+	  yearEagle: 2024,
         }
       ],
       joinedUnit: 2014,
