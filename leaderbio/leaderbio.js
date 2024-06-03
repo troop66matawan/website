@@ -602,6 +602,7 @@ var leaderbio = {
     {
       firstName: 'Peter',
       lastName: 'Roche',
+      oa: 'ordeal',
       positions: [
         {
           position: 'Committee Member',
