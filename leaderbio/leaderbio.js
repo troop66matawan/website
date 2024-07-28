@@ -578,28 +578,6 @@ var leaderbio = {
       profilepic: 'images/profile/BrianMeek.jpg',
     },
     {
-      firstName: 'Dick',
-      lastName: 'Ratcliffe',
-      positions: [
-        {
-          position: 'Committee Member',
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Richard',
-          lastName: 'Ratcliffe Jr',
-          yearEagle: 1992,
-        },
-        {
-          firstName: 'Matt',
-          lastName: 'Ratcliffe',
-          yearEagle: 2001,
-        },
-      ],
-      joinedUnit: 1957,
-    },
-    {
       firstName: 'Peter',
       lastName: 'Roche',
       oa: 'ordeal',
