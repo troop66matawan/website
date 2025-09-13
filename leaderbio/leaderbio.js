@@ -92,42 +92,6 @@ var leaderbio = {
       occupation: 'Commercial Insurance'
     },
     {
-      firstName: 'Andrew',
-      lastName: 'Goldstein',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2013
-          },
-        },
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2010,
-            end: 2013,
-          },
-        }
-      ],
-      sons: [
-        {
-          firstName: 'Ryan',
-          lastName: 'Goldstein',
-          yearEagle: 2016,
-        },
-        {
-          firstName: 'Adam',
-          lastName: 'Goldstein',
-          yearEagle: 2018,
-        }
-      ],
-      joinedUnit: 2010,
-      oa: 'brotherhood',
-      occupation: 'Software Engineer',
-      employer: 'Parsons Corporation',
-      profilepic: 'images/profile/AndrewGoldstein.jpg',
-    },
-    {
       firstName: 'Scott',
       lastName: 'Harrington',
       positions: [
@@ -150,7 +114,7 @@ var leaderbio = {
       profilepic: 'images/profile/ScottHarrington.JPG',
       occupation: 'Retired Funeral Director, US Army Veteran'
     },
- {
+    {
       firstName: 'Robert',
       lastName: 'Kee III',
       positions: [
@@ -192,7 +156,8 @@ var leaderbio = {
       ],
       profilepic: 'images/profile/RobKee.JPG',
       oa: 'brotherhood',
-    },{
+    },
+    {
       firstName: 'Ken',
       lastName: 'Kinneman',
       positions: [
@@ -219,7 +184,6 @@ var leaderbio = {
       oa: 'brotherhood',
       profilepic: 'images/profile/KenKinneman.jpg',
     },
-    
     {
       firstName: 'Frank',
       lastName: 'Nastro',
@@ -268,7 +232,7 @@ var leaderbio = {
         {
           firstName: 'Sean',
           lastName: 'Proce',
-	  yearEagle: 2024,
+          yearEagle: 2024,
         }
       ],
       joinedUnit: 2014,
@@ -299,7 +263,7 @@ var leaderbio = {
         {
           firstName: 'Ryan',
           lastName: 'Stevenson',
-	  yearEagle: 2023,
+          yearEagle: 2023,
         },
         {
           firstName: 'Ian',
@@ -315,45 +279,49 @@ var leaderbio = {
   ],
   committee: [
     {
-      firstName: 'Joseph',
-      lastName: 'Landi',
+      firstName: 'Andrew',
+      lastName: 'Goldstein',
       positions: [
         {
           position: 'Committee Chairman',
           tenure: {
-            start: 2018,
+            start: 2025,
           },
         },
         {
           position: 'Assistant Scoutmaster',
           tenure: {
-            start: 2004,
-            end: 2018,
+            start: 2013,
+            end: 2025
           },
         },
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2010,
+            end: 2013,
+          },
+        }
       ],
       sons: [
         {
-          firstName: 'Christopher',
-          lastName: 'Landi',
-          yearEagle: 2011,
-        },
-        {
-          firstName: 'Thomas',
-          lastName: 'Landi',
-          yearEagle: 2013,
-        },
-        {
-          firstName: 'Robert',
-          lastName: 'Landi',
+          firstName: 'Ryan',
+          lastName: 'Goldstein',
           yearEagle: 2016,
+        },
+        {
+          firstName: 'Adam',
+          lastName: 'Goldstein',
+          yearEagle: 2018,
         }
       ],
-      joinedUnit: 2004,
+      joinedUnit: 2010,
       oa: 'brotherhood',
-      occupation: 'Electronics Engineer',
-      profilepic: 'images/profile/JoeLandi.jpg',
+      occupation: 'Software Engineer',
+      employer: 'Parsons Corporation',
+      profilepic: 'images/profile/AndrewGoldstein.jpg',
     },
+
     {
       firstName: 'Dan',
       lastName: 'Acquafredda',
@@ -489,6 +457,53 @@ var leaderbio = {
      employer: 'Freehold Regional High School District',
     },
     {
+      firstName: 'Joseph',
+      lastName: 'Landi',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2025,
+          },
+        },
+        {
+          position: 'Committee Chairman',
+          tenure: {
+            start: 2018,
+            end: 2025
+          },
+        },
+        {
+          position: 'Assistant Scoutmaster',
+          tenure: {
+            start: 2004,
+            end: 2018,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Christopher',
+          lastName: 'Landi',
+          yearEagle: 2011,
+        },
+        {
+          firstName: 'Thomas',
+          lastName: 'Landi',
+          yearEagle: 2013,
+        },
+        {
+          firstName: 'Robert',
+          lastName: 'Landi',
+          yearEagle: 2016,
+        }
+      ],
+      joinedUnit: 2004,
+      oa: 'brotherhood',
+      occupation: 'Electronics Engineer',
+      profilepic: 'images/profile/JoeLandi.jpg',
+    },
+    {
       firstName: 'Mary-Ann',
       lastName: 'Landi',
       positions: [
@@ -553,6 +568,16 @@ var leaderbio = {
           yearEagle: 2005,
         },
       ],
+      grandsons: [
+        {
+          firstName: 'Vandaver',
+          lastName: 'Leising'
+        },
+        {
+          firstName: 'Dominic',
+          lastName: 'Leising'
+        }
+      ],
       joinedUnit: 1991,
     },
     {
@@ -593,6 +618,8 @@ var leaderbio = {
         {
           firstName: 'Simon',
           lastName: 'Roche',
+          yearEagle: 2025,
+
         },
         {
           firstName: 'Philip',
@@ -600,6 +627,7 @@ var leaderbio = {
         },
       ],
       joinedUnit: 2018,
+      oa: 'brotherhood',
     },
   ]
 };

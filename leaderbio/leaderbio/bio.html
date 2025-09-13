@@ -29,6 +29,18 @@
         </div>
       </div>
     </div>
+    <div class="sons"  ng-if="$ctrl.data.grandsons && $ctrl.data.grandsons.length >0">
+      <span class="label" ng-if="$ctrl.data.grandsons.length > 1">Grandsons:</span>
+      <span class="label" ng-if="$ctrl.data.grandsons.length === 1">Grandson:</span>
+      <div class="sonlist">
+        <div class="son" ng-repeat="son in $ctrl.data.grandsons">
+          <span class="firstname">{{son.firstName}}</span>
+          <span class="lastname">{{son.lastName}}</span>
+          <span class="eagle" ng-if="son.yearEagle">Eagle Scout ({{son.yearEagle}})</span>
+        </div>
+      </div>
+    </div>
+
     <div class="occupation" ng-if="$ctrl.data.occupation">
       <span class="label">Occupation:</span>
       {{$ctrl.data.occupation}}
