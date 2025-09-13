@@ -1,39 +1,35 @@
 var leaderbio = {
   scoutmaster: [
-    {
-      firstName: 'Robert',
-      lastName: 'Kee III',
+   {
+      firstName: 'Mark',
+      lastName: 'Mills',
       positions: [
+	{
+		position: 'Scoutmaster',
+		tenure: {
+			start: 2024
+		},
+	},
         {
-          position: 'Scoutmaster',
+          position: 'Assistant Scoutmaster',
           tenure: {
-            start: 2018,
-          }
+            start: 2015,
+	    end: 2024,
+          },
         },
-        {
-          position: 'Asst. Scoutmaster',
-          tenure: {
-            start: 2012,
-            end: 2018,
-          }
-        }
       ],
-      joinedUnit: 2011,
-      occupation: 'Project Manager',
-      employer: 'Kee Engineering Enterprises',
       sons: [
         {
-          firstName: 'Robert',
-          lastName: 'Kee IV',
-          yearEagle: 2017,
-        },
-        {
-          firstName: 'Ryan',
-          lastName: 'Kee',
+          firstName: 'Patrick',
+          lastName: 'Mills',
+          yearEagle: 2021,
         }
       ],
-      profilepic: 'images/profile/RobKee.JPG',
+      joinedUnit: 2014,
+      employer: 'Davis Polk & Wardwell LLP',
+      occupation: 'Information Systems Trainer',
       oa: 'brotherhood',
+      profilepic: 'images/profile/MarkMills.JPG',
     },
   ],
   assistantscoutmaster: [
@@ -52,6 +48,7 @@ var leaderbio = {
         {
           firstName: 'Alex',
           lastName: 'Besculides',
+	  yearEagle: 2023,
         },
       ],
       oa: 'brotherhood',
@@ -131,40 +128,6 @@ var leaderbio = {
       profilepic: 'images/profile/AndrewGoldstein.jpg',
     },
     {
-      firstName: 'Pedro',
-      lastName: 'Grillo',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2007
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Taylor',
-          lastName: 'Grillo',
-          yearEagle: 2013,
-        },
-        {
-          firstName: 'Zachary',
-          lastName: 'Grillo',
-          yearEagle: 2017,
-        },
-        {
-          firstName: 'Logan',
-          lastName: 'Grillo',
-	  yearEagle: 2021,
-        }
-
-      ],
-      joinedUnit: 2007,
-      oa: 'brotherhood',
-      occupation: 'Plastic Raw Materials Salesman',
-      profilepic: 'images/profile/PedroGrillo.jpg',
-    },
-    {
       firstName: 'Scott',
       lastName: 'Harrington',
       positions: [
@@ -187,7 +150,49 @@ var leaderbio = {
       profilepic: 'images/profile/ScottHarrington.JPG',
       occupation: 'Retired Funeral Director, US Army Veteran'
     },
-    {
+ {
+      firstName: 'Robert',
+      lastName: 'Kee III',
+      positions: [
+        {
+          position: 'Asst. Scoutmaster',
+          tenure: {
+            start: 2024,
+          },
+	},
+        {
+          position: 'Scoutmaster',
+          tenure: {
+            start: 2018,
+  	    end: 2024,
+          }
+        },
+        {
+          position: 'Asst. Scoutmaster',
+          tenure: {
+            start: 2012,
+            end: 2018,
+          }
+        }
+      ],
+      joinedUnit: 2011,
+      occupation: 'Project Manager',
+      employer: 'Kee Engineering Enterprises',
+      sons: [
+        {
+          firstName: 'Robert',
+          lastName: 'Kee IV',
+          yearEagle: 2017,
+        },
+        {
+          firstName: 'Ryan',
+          lastName: 'Kee', 
+	  yearEagle: 2024,	
+        }
+      ],
+      profilepic: 'images/profile/RobKee.JPG',
+      oa: 'brotherhood',
+    },{
       firstName: 'Ken',
       lastName: 'Kinneman',
       positions: [
@@ -214,30 +219,7 @@ var leaderbio = {
       oa: 'brotherhood',
       profilepic: 'images/profile/KenKinneman.jpg',
     },
-    {
-      firstName: 'Mark',
-      lastName: 'Mills',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2015
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Patrick',
-          lastName: 'Mills',
-          yearEagle: 2021,
-        }
-      ],
-      joinedUnit: 2014,
-      employer: 'Davis Polk & Wardwell LLP',
-      occupation: 'Information Systems Trainer',
-      oa: 'brotherhood',
-      profilepic: 'images/profile/MarkMills.JPG',
-    },
+    
     {
       firstName: 'Frank',
       lastName: 'Nastro',
@@ -286,6 +268,7 @@ var leaderbio = {
         {
           firstName: 'Sean',
           lastName: 'Proce',
+	  yearEagle: 2024,
         }
       ],
       joinedUnit: 2014,
@@ -316,6 +299,7 @@ var leaderbio = {
         {
           firstName: 'Ryan',
           lastName: 'Stevenson',
+	  yearEagle: 2023,
         },
         {
           firstName: 'Ian',
@@ -586,6 +570,7 @@ var leaderbio = {
         {
           firstName: 'Andrew',
           lastName: 'Meek',
+	  yearEagle: 2023,
         },
       ],
       joinedUnit: 2017,
@@ -593,30 +578,9 @@ var leaderbio = {
       profilepic: 'images/profile/BrianMeek.jpg',
     },
     {
-      firstName: 'Dick',
-      lastName: 'Ratcliffe',
-      positions: [
-        {
-          position: 'Committee Member',
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Richard',
-          lastName: 'Ratcliffe Jr',
-          yearEagle: 1992,
-        },
-        {
-          firstName: 'Matt',
-          lastName: 'Ratcliffe',
-          yearEagle: 2001,
-        },
-      ],
-      joinedUnit: 1957,
-    },
-    {
       firstName: 'Peter',
       lastName: 'Roche',
+      oa: 'ordeal',
       positions: [
         {
           position: 'Committee Member',
