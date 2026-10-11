@@ -34,28 +34,6 @@ var leaderbio = {
   ],
   assistantscoutmaster: [
     {
-      firstName: 'Damian',
-      lastName: 'Besculides',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2021
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Alex',
-          lastName: 'Besculides',
-	  yearEagle: 2023,
-        },
-      ],
-      oa: 'brotherhood',
-      joinedUnit: 2019,
-      occupation: 'Architect'
-    },
-    {
       firstName: 'Quin',
       lastName: 'Bond',
       positions: [
@@ -70,6 +48,7 @@ var leaderbio = {
         {
           firstName: 'Tyler',
           lastName: 'Bond',
+          yearEagle: 2026
         },
     ],
       oa: 'ordeal',
@@ -90,30 +69,7 @@ var leaderbio = {
       joinedUnit: 2003,
       oa: 'brotherhood',
       occupation: 'Commercial Insurance'
-    },
-    {
-      firstName: 'Scott',
-      lastName: 'Harrington',
-      positions: [
-        {
-          position: 'Assistant Scoutmaster',
-          tenure: {
-            start: 2015
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Scott',
-          lastName: 'Harrington Jr.',
-          yearEagle: 2019,
-        }
-      ],
-      joinedUnit: 2013,
-      oa: 'vigil',
-      profilepic: 'images/profile/ScottHarrington.JPG',
-      occupation: 'Retired Funeral Director, US Army Veteran'
-    },
+    }
     {
       firstName: 'Robert',
       lastName: 'Kee III',
@@ -504,42 +460,6 @@ var leaderbio = {
       profilepic: 'images/profile/JoeLandi.jpg',
     },
     {
-      firstName: 'Mary-Ann',
-      lastName: 'Landi',
-      positions: [
-        {
-          position: 'Committee Member',
-          tenure: {
-            start: 2011,
-          },
-        },
-        {
-          position: 'Advancement Chair',
-          tenure: {
-            start: 2011
-          },
-        },
-      ],
-      sons: [
-        {
-          firstName: 'Christopher',
-          lastName: 'Landi',
-          yearEagle: 2011,
-        },
-        {
-          firstName: 'Thomas',
-          lastName: 'Landi',
-          yearEagle: 2013,
-        },
-        {
-          firstName: 'Robert',
-          lastName: 'Landi',
-          yearEagle: 2016,
-        }
-      ],
-      joinedUnit: 2004,
-    },
-    {
       firstName: 'Chris',
       lastName: 'Leising',
       positions: [
@@ -579,6 +499,29 @@ var leaderbio = {
         }
       ],
       joinedUnit: 1991,
+    },
+    {
+      firstName: 'Jeff',
+      lastName: 'Leising',
+      positions: [
+        {
+          position: 'Committee Member',
+          tenure: {
+            start: 2026,
+          },
+        },
+      ],
+      sons: [
+        {
+          firstName: 'Vandaver',
+          lastName: 'Leising'
+        },
+        {
+          firstName: 'Dominic',
+          lastName: 'Leising'
+        }
+      ],
+      joinedUnit: 1998,
     },
     {
       firstName: 'Brian',
