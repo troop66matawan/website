@@ -75,7 +75,7 @@ var leaderbio = {
       lastName: 'Kee III',
       positions: [
         {
-          position: 'Asst. Scoutmaster',
+          position: 'Assistant Scoutmaster',
           tenure: {
             start: 2024,
           },
