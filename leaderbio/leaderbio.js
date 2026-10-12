@@ -568,6 +568,11 @@ var leaderbio = {
           firstName: 'Philip',
           lastName: 'Roche',
         },
+        {
+          firstName: 'Thomas',
+          lastName: 'Roche',
+        },
+		
       ],
       joinedUnit: 2018,
       oa: 'brotherhood',
