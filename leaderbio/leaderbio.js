@@ -69,7 +69,7 @@ var leaderbio = {
       joinedUnit: 2003,
       oa: 'brotherhood',
       occupation: 'Commercial Insurance'
-    }
+    },
     {
       firstName: 'Robert',
       lastName: 'Kee III',
